@@ -3,3 +3,7 @@ export interface Service {
     name: string;
     address: string;
   }
+  
+  export interface LocationState {
+    serviceData: Service[];
+  }

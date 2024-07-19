@@ -13,7 +13,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path='/business-account' element={<BusinessAccount />}/>
-          <Route path='/service-accounts' element={<ServiceAccounts serviceData={[]} />}/>
+          <Route path='/service-accounts' element={<ServiceAccounts  />}/>
           <Route path='/orders' element={<Orders />}/>
         </Routes>
       </Router>

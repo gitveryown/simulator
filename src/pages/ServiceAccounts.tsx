@@ -1,15 +1,20 @@
 import React from 'react';
-import { Service } from '../types/index'; 
+import { useLocation } from 'react-router-dom';
+import { Service } from '../types/index';
 
-interface ServicesProps {
+interface LocationState {
   serviceData: Service[];
 }
 
-const ServiceAccounts: React.FC<ServicesProps> = ({ serviceData }) => {
+
+const ServiceAccounts: React.FC = () => {
+  const location = useLocation();
+  const { serviceData } = (location.state as LocationState) || { serviceData: [] };
+
   return (
-    <div className='page'>
+    <div>
       <h2>Services</h2>
-      <ul className='list'>
+      <ul>
         {serviceData.map(service => (
           <li key={service.id}>
             ID: {service.id}, Name: {service.name}, Address: {service.address}

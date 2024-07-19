@@ -1,6 +1,6 @@
 [
     {
-      "businessId": "business1",
+      "businessId": "1",
       "businessName": "Business One",
       "services": [
         {
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "businessId": "business2",
+      "businessId": "2",
       "businessName": "Business Two",
       "services": [
         {
