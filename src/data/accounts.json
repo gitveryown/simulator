@@ -1,0 +1,29 @@
+[
+    {
+      "businessId": "business1",
+      "businessName": "Business One",
+      "services": [
+        {
+          "id": "service1",
+          "name": "Service A",
+          "address": "111 Test St"
+        },
+        {
+          "id": "service2",
+          "name": "Service B",
+          "address": "456 Practice Ave"
+        }
+      ]
+    },
+    {
+      "businessId": "business2",
+      "businessName": "Business Two",
+      "services": [
+        {
+          "id": "service3",
+          "name": "Service C",
+          "address": "222 Example Rd"
+        }
+      ]
+    }
+  ]
