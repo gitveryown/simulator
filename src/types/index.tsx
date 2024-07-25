@@ -4,6 +4,12 @@ export interface Service {
     address: string;
   }
   
-  export interface LocationState {
-    serviceData: Service[];
+  // export interface LocationState {
+  //   serviceData: Service[];
+  // }
+
+  export interface Business {
+    businessId: string;
+    businessName: string;
+    services: Service[];
   }
